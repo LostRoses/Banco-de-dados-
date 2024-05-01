@@ -8,7 +8,8 @@ Banco de dados, de uma Escola Livraria
 
 
 MODELO RELACIONAL FISICO
-![mode_relacional](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/7a2586b5-3ec4-4b9d-8fb7-10a0c514d9f9)
+
+![Modelo_relacional](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/f47764dd-d871-49d4-aa4a-62ab0d127efb)
 
 
 AS 5 PERGUNTAS SÃO:
