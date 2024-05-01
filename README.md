@@ -8,7 +8,7 @@ Banco de dados, de uma Escola Livraria
 
 
 MODELO RELACIONAL FISICO
-![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/16f0c5ac-22a4-4ecf-af20-a5b2885eb51b)
+![mode_relacional](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/7a2586b5-3ec4-4b9d-8fb7-10a0c514d9f9)
 
 
 AS 5 PERGUNTAS SÃO:
@@ -37,19 +37,19 @@ JOIN Inscricoes ON Curso.id_curso = Inscricoes.id_curso
 GROUP BY Curso.nome_do_curso
 ORDER BY quantidade_inscricoes DESC;
 
-4 Qual é o total de pontos de bônus para cada aluno?
+4 Quantos empréstimos foram devolvidos após a data de devolução?
 
-SELECT Aluno.nome, SUM(Bonus.pontos_bonus) AS total_pontos_bonus
-FROM Aluno
-JOIN Bonus ON Aluno.id_aluno = Bonus.id_aluno
-GROUP BY Aluno.nome
-ORDER BY total_pontos_bonus DESC;
+SELECT COUNT(*) as emprestimos_atrasados
+FROM Emprestimo
+WHERE data_devolvida > data_devolucao;
 
-5 Qual é a diferença entre a nota máxima e a nota mínima para cada curso?
+5 Quantos alunos têm uma nota média acima de 7?
 
-SELECT Curso.nome_do_curso, MAX(Avaliacao.nota) - MIN(Avaliacao.nota) AS diferenca_notas
+SELECT Curso.nome_do_curso, COUNT(Aluno.id_aluno) AS qnt_alunos_com_bonus_acima_media
 FROM Curso
-JOIN Avaliacao ON Curso.id_curso = Avaliacao.id_curso
+JOIN Aluno ON Curso.id_curso = Aluno.id_curso
+JOIN Bonus ON Aluno.id_aluno = Bonus.id_aluno
+WHERE Bonus.pontos_bonus > (SELECT AVG(pontos_bonus) FROM Bonus)
 GROUP BY Curso.nome_do_curso;
 
 
