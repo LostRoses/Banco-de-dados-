@@ -53,7 +53,11 @@ JOIN Bonus ON Aluno.id_aluno = Bonus.id_aluno
 WHERE Bonus.pontos_bonus > (SELECT AVG(pontos_bonus) FROM Bonus)
 GROUP BY Curso.nome_do_curso;
 
+6 Quantos alunos não atingiram a média 7?
 
+SELECT COUNT(*) AS 'Número de alunos com média abaixo de 7'
+FROM Avaliacao
+WHERE nota < 7;
 
 
 
