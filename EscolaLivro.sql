@@ -8,6 +8,7 @@ CREATE TABLE Curso(
 );
 
 -- Tabela Aluno
+
 CREATE TABLE Aluno(
     id_aluno INT PRIMARY KEY,
     id_curso INT,
@@ -18,12 +19,17 @@ CREATE TABLE Aluno(
     FOREIGN KEY (id_curso) REFERENCES Curso(id_curso)
 );
 
+-- Tabela Livro
+
 CREATE TABLE Livro (
     id_livro INT PRIMARY KEY,
     titulo VARCHAR(255),
     autor VARCHAR(255),
     qnt_em_estoque INT
-);	
+);
+
+-- Tabela Emprestimo
+
 CREATE TABLE Emprestimo (
     id_emprestimo INT PRIMARY KEY,
     id_aluno INT,
@@ -36,7 +42,10 @@ CREATE TABLE Emprestimo (
     FOREIGN KEY (id_aluno) REFERENCES Aluno(id_aluno),
     FOREIGN KEY (id_livro) REFERENCES Livro(id_livro),
 	FOREIGN KEY (id_curso) REFERENCES Curso(id_curso)
-);	
+);
+
+-- Tabela Professor
+
 CREATE TABLE Professor (
     id_professor INT PRIMARY KEY,
     id_curso INT,
@@ -46,6 +55,8 @@ CREATE TABLE Professor (
     salario VARCHAR (255),
     FOREIGN KEY (id_curso) REFERENCES Curso(id_curso)
 );
+
+-- Tabela Avaliação
 
 CREATE TABLE Avaliacao (
     id_avaliacao INT PRIMARY KEY,
@@ -61,16 +72,21 @@ CREATE TABLE Avaliacao (
     FOREIGN KEY (id_professor) REFERENCES Professor(id_professor)
 );
 
+-- Tabela Bonus
+
 CREATE TABLE Bonus (
     id_bonus INT PRIMARY KEY,
     id_aluno INT,
     id_avaliacao INT,
     id_emprestimo INT,
     pontos_bonus INT,
+	status VARCHAR (255),
     FOREIGN KEY (id_aluno) REFERENCES Aluno(id_aluno),
     FOREIGN KEY (id_avaliacao) REFERENCES Avaliacao(id_avaliacao),
     FOREIGN KEY (id_emprestimo) REFERENCES Emprestimo(id_emprestimo)
 );
+
+-- Tabela Inscrições
 
 CREATE TABLE Inscricoes (
     id_inscricoes INT PRIMARY KEY,
@@ -79,6 +95,38 @@ CREATE TABLE Inscricoes (
     data_inscricao DATE,
     FOREIGN KEY (id_aluno) REFERENCES Aluno(id_aluno),
     FOREIGN KEY (id_curso) REFERENCES Curso(id_curso)
+);
+-- Tabela Monitor
+
+CREATE TABLE Monitor (
+    id_monitor INT PRIMARY KEY,
+    id_aluno INT,
+    FOREIGN KEY (id_aluno) REFERENCES Aluno(id_aluno)
+);
+
+-- Tabela Trabalho
+
+CREATE TABLE Trabalho (
+    id_trabalho INT PRIMARY KEY,
+    id_aluno INT,
+    id_professor INT,
+    titulo VARCHAR(255),
+    data_publicacao DATE,
+    FOREIGN KEY (id_aluno) REFERENCES Aluno(id_aluno),
+    FOREIGN KEY (id_professor) REFERENCES Professor(id_professor)
+);
+
+-- Tabela Acompanhamento
+
+CREATE TABLE Acompanhamento (
+    id_acompanhamento INT PRIMARY KEY,
+    id_aluno INT,
+    id_professor INT,
+    id_monitor INT,
+    data_acompanhamento DATE,
+    FOREIGN KEY (id_aluno) REFERENCES Aluno(id_aluno),
+    FOREIGN KEY (id_professor) REFERENCES Professor(id_professor),
+    FOREIGN KEY (id_monitor) REFERENCES Monitor(id_monitor)
 );
 
 -- Tabela Curso
@@ -207,9 +255,15 @@ SELECT COUNT(*) as emprestimos_atrasados
 FROM Emprestimo
 WHERE data_devolvida > data_devolucao;
 
-SELECT COUNT(*) AS 'Número de alunos com média abaixo de 7'
+SELECT COUNT(*) AS "número de alunos com média abaixo de 7"
 FROM Avaliacao
 WHERE nota < 7;
+
+ALTER TABLE Aluno
+ADD media_notas FLOAT;
+
+ALTER TABLE Avaliacao
+ADD status VARCHAR(255);
 
 CREATE OR REPLACE FUNCTION update_bonus_points() RETURNS TRIGGER AS $$
 BEGIN
