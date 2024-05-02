@@ -61,6 +61,11 @@ FROM Avaliacao
 WHERE nota < 7;
 
 
+easter egg: 
 
+1 - Bonificação para os alunos que utilizarem da proposta de emprestimo de forma adequada.
 
+2 - Monitoria e acompanhamento para os alunos com nota abaixa da média.
+
+3 - Oportunidade de publicar pesquisas e artigos na instituição, auxiliados pelos professores, para os alunos com notas iguais ou superiores a média.
 
