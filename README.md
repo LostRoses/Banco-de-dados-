@@ -61,7 +61,7 @@ FROM Avaliacao
 WHERE nota < 7;
 
 
-easter egg: 
+EASTER EGGS: 
 
 1 - Bonificação para os alunos que utilizarem da proposta de emprestimo de forma adequada.
 
