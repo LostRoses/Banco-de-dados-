@@ -69,3 +69,20 @@ EASTER EGGS:
 
 3 - Oportunidade de publicar pesquisas e artigos na instituição, auxiliados pelos professores, para os alunos com notas iguais ou superiores a média.
 
+
+NORMALIZAÇÃO: Terceira Forma Normal (3NF)
+
+O esquema já atende aos critérios da 1NF, pois cada célula contém apenas um valor, há uma chave primária para identificação e não há duplicação de linhas ou colunas.
+
+Na 2NF, abordamos dependências parciais.
+Vamos focar na tabela Emprestimo:
+Ela possui uma chave primária composta: (id_aluno, id_curso, id_livro).
+Criaremos uma nova tabela para os detalhes do empréstimo (por exemplo, EmprestimoDetalhes) com as colunas id_emprestimo, data_emprestimo, data_devolucao, data_devolvida e multa.
+A tabela original Emprestimo agora terá apenas as colunas da chave primária: (id_aluno, id_curso, id_livro).
+
+Na 3NF, abordamos dependências transitivas.
+Vamos considerar a tabela Avaliacao:
+O atributo nome_aluno depende de id_aluno, o que é uma dependência transitiva.
+Criaremos uma nova tabela para os nomes dos alunos (por exemplo, AlunoNomes) com as colunas id_aluno e nome_aluno.
+A tabela original Avaliacao agora fará referência ao AlunoNomes usando id_aluno.
+
