@@ -78,11 +78,12 @@ CRIAÇÃO DE NOVOS TRIGGRS:
 
 ![imagem_2024-06-09_233605563](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/8246af3f-d385-47f4-a904-1e9deda13307)
 
-3°) Trigger para verificar a disponibilidade de livros antes de emprestar:
+3°) Trigger para verificar a disponibilidade dos livros antes de emprestar:
 
 
 4°) Trigger para registrar a data e hora de uma avaliação: 
 
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/6fb46369-7033-4aa7-a6b0-42ede2943e04)
 
 5°) Trigger que atualiza a nota média de um curso com base nas avaliações:
 
