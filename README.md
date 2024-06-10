@@ -17,11 +17,8 @@ AS 5 PERGUNTAS SÃO:
 
 1 Quantos empréstimos cada aluno fez?
 
-SELECT Aluno.nome, COUNT(Emprestimo.id_aluno) AS quantidade_emprestimos
-FROM Aluno
-JOIN Emprestimo ON Aluno.id_aluno = Emprestimo.id_aluno
-GROUP BY Aluno.nome
-ORDER BY quantidade_emprestimos DESC;
+![captura_tela](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/5ad17112-cc3e-4cf1-a2c0-1d960034faa2)
+
 
 
 2 Qual é a média das notas para cada curso?
