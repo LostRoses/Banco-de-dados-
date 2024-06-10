@@ -23,11 +23,11 @@ AS 5 PERGUNTAS SÃO:
 
 2 Qual é a média das notas para cada curso?
 
-![Captura de tela 2024-06-09 222349](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/5fee0164-1753-47d6-882a-65d503fc9f1c)
+![Captura de tela 2024-06-09 222329](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/3ba6e241-0a12-42c6-9af5-d630fe1a9e36)
 
 3 Quantas inscrições cada curso tem?
 
-![Captura de tela 2024-06-09 222329](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/3ba6e241-0a12-42c6-9af5-d630fe1a9e36)
+![Captura de tela 2024-06-09 222349](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/5fee0164-1753-47d6-882a-65d503fc9f1c)
 
 4 Quantos empréstimos foram devolvidos após a data de devolução?
 
