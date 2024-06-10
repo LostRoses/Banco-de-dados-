@@ -73,13 +73,13 @@ CRIAÇÃO DE NOVOS TRIGGRS:
 
 ![imagem_2024-06-09_233440479](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/2779a303-3dad-4da3-a1ac-b2217db6b410)
 
-
 2°) Trigger para atualizar o estoque de livros após um empréstimo:
 
 ![imagem_2024-06-09_233605563](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/8246af3f-d385-47f4-a904-1e9deda13307)
 
 3°) Trigger para verificar a disponibilidade dos livros antes de emprestar:
 
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/ccb2388e-9f68-4a4f-a94f-a96a84a90297)
 
 4°) Trigger para registrar a data e hora de uma avaliação: 
 
