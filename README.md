@@ -71,6 +71,7 @@ CRIAÇÃO DE NOVOS TRIGGRS:
 
 1°) Trigger para atualizar os pontos de bônus de um aluno:
 
+![imagem_2024-06-09_233440479](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/2779a303-3dad-4da3-a1ac-b2217db6b410)
 
 
 2°) Trigger para atualizar o estoque de livros após um empréstimo:
