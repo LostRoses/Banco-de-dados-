@@ -146,14 +146,6 @@ CRIAÇÃO DE VIEWS:
 
 ![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/332ad4e4-f9fa-436d-b4b2-677006e6c866)
 
-5°) View de Estatísticas de Alunos:
-
-![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/8af9e582-7f73-4c4e-92c7-808184cf19f7)
-
-6°) View de Avaliações por Modalidade:
-
-![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/fb14da26-01a9-4e79-8797-f8d14339a5c4)
-
 CRIAÇÃO DE USUÁRIOS E CONCESSÃO E PERMISSÕES:
 
 ![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/8fb75883-d3aa-472a-8b0b-3471593dc7ca)
