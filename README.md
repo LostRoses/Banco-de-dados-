@@ -101,5 +101,59 @@ CRIAÇÃO DE NOVOS TRIGGRS:
 
 ![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/35316c99-1154-4d7d-bdff-4593b285ab12)
 
+CRIAÇÃO DE STORED PROCEDURE:
+
+1°) Stored procedure para calcular a média das notas de um aluno:
+
+![imagem_2024-06-09_233440479](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/2779a303-3dad-4da3-a1ac-b2217db6b410)
+
+2°) Stored procedure para atualizar o saldo de um aluno após empréstimo:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/d802e3d7-edce-45eb-8c97-a9571fa1eb85)
+
+3°) Stored procedure para registrar um novo livro no estoque:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/1297e2a5-6412-490a-a6de-2a2bd7468183)
+
+4°) Stored procedure para calcular a media de notas em cada curso:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/375673ff-da21-429d-91df-b08bbf8e01cf)
+
+5°) Stored procedure para verificar incrição dos alunos no curso:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/40bdfbee-afc8-4055-9a58-a2e2abf09e06)
+
+6°) Stored procedure para registrar um novo trabalho enviado por aluno:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/785cdd4d-9328-4346-a1a5-39a711da6d01)
 
 
+CRIAÇÃO DE VIEWS:
+
+1°) View que mostra o número total de vendas por categoria de livro:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/e78f02ff-d8f8-441f-8a09-da1efa1feaa0)
+
+2°) View que lista os alunos inscritos em um curso específico:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/974300b4-1048-4939-a3b5-9610df39ad77)
+
+3°) View que exibe os detalhes de um trabalho específico:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/e516fe11-d394-4ab7-889d-257d7c271009)
+
+4°) View de Livros Disponíveis para Empréstimo:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/332ad4e4-f9fa-436d-b4b2-677006e6c866)
+
+5°) View de Estatísticas de Alunos:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/8af9e582-7f73-4c4e-92c7-808184cf19f7)
+
+6°) View de Avaliações por Modalidade:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/fb14da26-01a9-4e79-8797-f8d14339a5c4)
+
+CRIAÇÃO DE USUÁRIOS E CONCESSÃO E PERMISSÕES:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/8fb75883-d3aa-472a-8b0b-3471593dc7ca)
