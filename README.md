@@ -95,5 +95,11 @@ CRIAÇÃO DE NOVOS TRIGGRS:
 
 7°) Trigger que atualiza o status de um monitor para ‘Ativo’:
 
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/fb7ada6f-3380-4e9a-a3ed-4ae5f0909291)
 
-8°) Trigger para calculaw a multa com base na diferença entre a data de devolução e a data em que o livro foi realmente devolvido:
+8°) Trigger para calcular a multa com base na diferença entre a data de devolução e a data em que o livro foi realmente devolvido:
+
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/35316c99-1154-4d7d-bdff-4593b285ab12)
+
+
+
