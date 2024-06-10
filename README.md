@@ -91,6 +91,7 @@ CRIAÇÃO DE NOVOS TRIGGRS:
 
 6°) Trigger que insere um bônus para o aluno se a nota da avaliação for maior que 8:
 
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/713f442f-c684-4c54-8b1e-7e95a4cc6e8b)
 
 7°) Trigger que atualiza o status de um monitor para ‘Ativo’:
 
