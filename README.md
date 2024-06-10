@@ -81,21 +81,17 @@ CRIAÇÃO DE NOVOS TRIGGRS:
 3°) Trigger para verificar a disponibilidade de livros antes de emprestar:
 
 
-
 4°) Trigger para registrar a data e hora de uma avaliação: 
 
 
+5°) Trigger que atualiza a nota média de um curso com base nas avaliações:
 
-5°) Trigger que atualiza a nota média de um curso com base nas avaliações do curso:
-
-
+![imagem_2024-06-10_001111013](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/78058cb0-c762-44ca-bb15-eb2535cf2dc1)
 
 6°) Trigger que insere um bônus para o aluno se a nota da avaliação for maior que 8:
 
 
-
 7°) Trigger que atualiza o status de um monitor para ‘Ativo’:
-
 
 
 8°) Trigger para calculaw a multa com base na diferença entre a data de devolução e a data em que o livro foi realmente devolvido:
