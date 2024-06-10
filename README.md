@@ -31,9 +31,7 @@ AS 5 PERGUNTAS SÃO:
 
 4 Quantos empréstimos foram devolvidos após a data de devolução?
 
-SELECT COUNT(*) as emprestimos_atrasados
-FROM Emprestimo
-WHERE data_devolvida > data_devolucao;
+![Captura de tela 2024-06-09 222132](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/8cd52fcf-6b62-4a46-aefc-2ab820b4ee76)
 
 5 Quantos alunos têm uma nota média acima de 7?
 
