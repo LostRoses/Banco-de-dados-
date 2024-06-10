@@ -27,11 +27,7 @@ AS 5 PERGUNTAS SÃO:
 
 3 Quantas inscrições cada curso tem?
 
-SELECT Curso.nome_do_curso, COUNT(Inscricoes.id_curso) AS quantidade_inscricoes
-FROM Curso
-JOIN Inscricoes ON Curso.id_curso = Inscricoes.id_curso
-GROUP BY Curso.nome_do_curso
-ORDER BY quantidade_inscricoes DESC;
+![Captura de tela 2024-06-09 222329](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/3ba6e241-0a12-42c6-9af5-d630fe1a9e36)
 
 4 Quantos empréstimos foram devolvidos após a data de devolução?
 
