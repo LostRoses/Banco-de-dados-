@@ -66,3 +66,7 @@ O atributo nome_aluno depende de id_aluno, o que é uma dependência transitiva.
 Criaremos uma nova tabela para os nomes dos alunos (por exemplo, AlunoNomes) com as colunas id_aluno e nome_aluno.
 A tabela original Avaliacao agora fará referência ao AlunoNomes usando id_aluno.
 
+
+CRIAÇÃO DE NOVOS TRIGGRS:
+
+Trigger para atualizar o estoque de livros após um empréstimo 
