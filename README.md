@@ -23,10 +23,7 @@ AS 5 PERGUNTAS SÃO:
 
 2 Qual é a média das notas para cada curso?
 
-SELECT Curso.nome_do_curso, AVG(Avaliacao.nota) AS media_notas
-FROM Curso
-JOIN Avaliacao ON Curso.id_curso = Avaliacao.id_curso
-GROUP BY Curso.nome_do_curso;
+![Captura de tela 2024-06-09 222349](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/5fee0164-1753-47d6-882a-65d503fc9f1c)
 
 3 Quantas inscrições cada curso tem?
 
