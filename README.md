@@ -80,6 +80,7 @@ CRIAÇÃO DE NOVOS TRIGGRS:
 
 3°) Trigger para verificar a disponibilidade de livros antes de emprestar:
 
+![imagem_2024-06-09_233605563](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/8246af3f-d385-47f4-a904-1e9deda13307)
 
 4°) Trigger para registrar a data e hora de uma avaliação: 
 
