@@ -35,19 +35,11 @@ AS 5 PERGUNTAS SÃO:
 
 5 Quantos alunos têm uma nota média acima de 7?
 
-SELECT Curso.nome_do_curso, COUNT(Aluno.id_aluno) AS qnt_alunos_com_bonus_acima_media
-FROM Curso
-JOIN Aluno ON Curso.id_curso = Aluno.id_curso
-JOIN Bonus ON Aluno.id_aluno = Bonus.id_aluno
-WHERE Bonus.pontos_bonus > (SELECT AVG(pontos_bonus) FROM Bonus)
-GROUP BY Curso.nome_do_curso;
+![Captura de tela 2024-06-09 222132](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/43256867-07d7-4577-b5d3-7c83b6e11d82)
 
 6 Quantos alunos não atingiram a média 7?
 
-SELECT COUNT(*) AS 'Número de alunos com média abaixo de 7'
-FROM Avaliacao
-WHERE nota < 7;
-
+![image](https://github.com/LostRoses/Banco-de-dados-/assets/99661044/e6b67ca9-0aff-4983-99e1-773bbe7fa03e)
 
 EASTER EGGS: 
 
